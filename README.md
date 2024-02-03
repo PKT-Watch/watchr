@@ -12,6 +12,8 @@ The application is built with [Flutter](https://flutter.dev/), an open source fr
 
 The app includes layouts optimised for both phone and tablet on iOS, iPadOS and Android.
 
+You can read more about Watchr on the projects webpage 👉 https://pkt.watch/watchr/
+
 Watchr is available for free on your favourite app store:
 
 App Store 👉 [Download](https://apps.apple.com/app/watchr-by-pkt-watch/id6448482867)   
