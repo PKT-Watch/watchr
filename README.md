@@ -1,10 +1,10 @@
 # Watchr
 
 <p align="center">
-    <img src="_resources/readme/banner.jpg">
+    <img src="https://github.com/PKT-Watch/watchr/blob/main/_resources/readme/banner.jpg?raw=true">
 </p>
 
-Watchr is a crypto tracker app specifically for the PKT Cash blockchain. Track balance, mining income and transactions for any wallet address.
+Watchr is a portfolio tracker app specifically for the PKT Cash blockchain. Track balance, mining income and transactions for any wallet address.
 
 ## About
 
