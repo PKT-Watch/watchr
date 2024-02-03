@@ -1,0 +1,1 @@
+enum FormColorMode { light, dark }
