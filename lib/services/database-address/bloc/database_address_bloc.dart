@@ -101,12 +101,15 @@ class DatabaseAddressBloc extends Bloc<DatabaseAddressEvent, DatabaseAddressStat
 
       List<AddressBalance> balances = List<AddressBalance>.from(res.map((model) => AddressBalance.fromJson(model)));
 
-      for (var balance in balances) {
-        DatabaseAddress? address = addresses.where((item) => item.address == balance.address).firstOrNull;
-        if (address != null) {
+      for (var address in addresses) {
+        AddressBalance? balance = balances.where((item) => item.address == address.address).firstOrNull;
+        if (balance != null) {
           address.isLoadingBalance = false;
           address.balance = PKTConversion.toPKT(balance.balance);
           totalBalance += address.balance;
+        } else {
+          address.isLoadingBalance = false;
+          address.balance = 0;
         }
       }
     }
